@@ -1,0 +1,31 @@
+{
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "server.js",
+  "script": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.4.7"
+  },
+  "instances"   : 1,
+  "merge_logs"  : true,
+    "log_date_format" : "YYYY-MM-DD HH:mm Z",
+    "watch": ["server.js"],
+    "watch_options": {
+      "followSymlinks": true,
+       "usePolling"   : true,
+       "interval"    : 5
+    },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Nazim Lala",
+  "contributors": [
+    "Nazim Lala"
+  ],
+  "license": "MIT"
+}
