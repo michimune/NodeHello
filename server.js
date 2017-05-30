@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Open source is awesome! Made a change');
+  res.send('Hello Node.js!!');
 });
 
 app.listen(process.env.PORT, function () {
